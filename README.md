@@ -1,6 +1,6 @@
 ## Ziyaad Mallick
 
-19, Karachi. CS at IBA.
+20, Karachi. CS at IBA.
 
 Most of what I build runs without a network. Mobile data is metered here and the connection
 drops most days, so local-first is just the default rather than a position I argue for.
@@ -16,9 +16,10 @@ Flutter, running on-device Gemma through `flutter_gemma` alongside the platform 
 recogniser. No backend to talk to.
 
 **[nok](https://github.com/ziyaad-mallick/nok)** — a desktop agent you summon by knocking
-on your laptop chassis. Two knocks for a screenshot or play/pause, three for an agent. Wake
-detection is local audio under 200ms, the action layer is whitelisted, and it ships with no
-UI at all by default. 321 tests.
+on your laptop chassis. Two knocks for a screenshot or play/pause, three for an agent.
+Detection is local audio and typically decides in under a millisecond; the wait you actually feel is the
+~790ms window that makes a double knock final, [measured in the README](https://github.com/ziyaad-mallick/nok#latency).
+The action layer is whitelisted, and it ships with no UI at all by default. 321 tests.
 
 **[ghostwriter](https://github.com/ziyaad-mallick/ghostwriter)** — a writing-style analyser
 and rewriter that runs locally with no LLM in it anywhere.
@@ -26,7 +27,12 @@ and rewriter that runs locally with no LLM in it anywhere.
 **[mughal_shatranj](https://github.com/ziyaad-mallick/mughal_shatranj)** — a chess engine in
 C++17 with an SFML interface and a minimax opponent with alpha-beta pruning.
 
-Away from the terminal I co-found things. A street-food brand in Karachi, and a cafe loyalty
-platform currently running paid pilots.
+Outside my own repos, I send fixes to [RunAnywhere](https://github.com/RunanywhereAI) (YC W26):
+Windows fixes to [wally](https://github.com/RunanywhereAI/wally/pulls?q=author%3Aziyaad-mallick),
+their C++ CLI, plus docs and release checks in the [SDKs](https://github.com/RunanywhereAI/runanywhere-sdks/pulls?q=author%3Aziyaad-mallick).
+Four merged so far, more open.
+
+Away from the terminal I co-founded a street-food brand in Karachi, and exited it in
+September 2026.
 
 [LinkedIn](https://linkedin.com/in/ziyaadmallick) · zii.mallick@gmail.com
